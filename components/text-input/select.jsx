@@ -36,9 +36,14 @@ const selectStyles = (props, theme) => {
 		input: styles => ({
 			...styles,
 			lineHeight: 1,
-			input: {
-				'&,&:focus': {
-					boxShadow: 'none',
+			flex: '1',
+			div: {
+				width: '100%',
+				input: {
+					width: '100%!important',
+					'&,&:focus': {
+						boxShadow: 'none',
+					},
 				},
 			},
 		}),
