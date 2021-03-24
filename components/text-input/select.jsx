@@ -63,6 +63,7 @@ const selectStyles = (props, theme) => {
 			lineHeight: 1,
 			whiteSpace: 'nowrap',
 			color: theme.colors.input.placeholderForeground,
+			pointerEvents: 'none',
 		}),
 		singleValue: styles => ({
 			...styles,
